@@ -25,7 +25,7 @@ public class FormularioActivity2 extends AppCompatActivity {
         setContentView(R.layout.activity_formulario2);
 
         etNome = findViewById(R.id.etNome);
-        spAno = findViewById(R.id.spAno;
+        spAno = findViewById(R.id.spAno);
         spCategoria = findViewById(R.id.spCategoria);
         btnSalvar = findViewById(R.id.btnSalvar);
 
@@ -37,6 +37,7 @@ public class FormularioActivity2 extends AppCompatActivity {
         btnSalvar.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+
                 salvar();
             }
         });
